@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3 uid="uid://pehxhqejy3f3"]
+
+[ext_resource type="Script" path="res://addons/Panning Camera/PanningCamera.gd" id="1_qeuh4"]
+[ext_resource type="Texture2D" uid="uid://cl5aqqe3kocj6" path="res://icon.png" id="2"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="PanningCamera" type="Camera2D" parent="."]
+script = ExtResource("1_qeuh4")
+zoom_sensititvity = 10.0
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(132, 190)
+texture = ExtResource("2")
+
+[node name="Icon2" type="Sprite2D" parent="."]
+position = Vector2(292, 479)
+texture = ExtResource("2")
+
+[node name="Icon3" type="Sprite2D" parent="."]
+position = Vector2(924, 412)
+texture = ExtResource("2")
+
+[node name="Icon4" type="Sprite2D" parent="."]
+position = Vector2(766, 92)
+texture = ExtResource("2")
